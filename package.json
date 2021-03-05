@@ -1,0 +1,13 @@
+{
+  "name": "@types/hubot-traq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyu0722/hubot-traq-types.git"
+  },
+  "dependencies": {
+    "@types/hubot": "^3.3.0"
+  }
+}
