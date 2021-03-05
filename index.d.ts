@@ -35,6 +35,7 @@ declare namespace HubotTraq {
   }
   class Robot extends _Robot {
     respond(regex: RegExp, callback: (response: Response) => void): void
+    hear(regex: RegExp, callback: (response: Response) => void): void
   }
 }
 
