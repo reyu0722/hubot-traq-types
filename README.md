@@ -6,4 +6,4 @@
 
 ## インストール方法
 
-> `npm i --save reyu0722/hubot-traq-types`
+> `npm i --save-dev reyu0722/hubot-traq-types`
