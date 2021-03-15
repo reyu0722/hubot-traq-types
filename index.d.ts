@@ -1,6 +1,10 @@
 import { Response as _Response, Robot as _Robot } from 'hubot'
 
 declare namespace HubotTraq {
+  class SendStamp {
+    type: 'stamp'
+    name: string
+  }
   class Response extends _Response {
     message: {
       eventTime: string
@@ -32,6 +36,7 @@ declare namespace HubotTraq {
       room: any
       finish(): void
     }
+    send(content: string | SendStamp) : Promise<void>
   }
   class Robot extends _Robot {
     respond(regex: RegExp, callback: (response: Response) => void): void
